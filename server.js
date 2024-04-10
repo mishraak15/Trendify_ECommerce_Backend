@@ -18,7 +18,7 @@ const User = require('./models/user');
 app.use(
   cors({
     credentials: true,
-    origin: "http://localhost:3000",
+    origin: "https://trendify-ecommerce-backend.onrender.com",
   })
 );
 
