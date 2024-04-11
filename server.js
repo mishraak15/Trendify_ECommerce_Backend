@@ -18,7 +18,7 @@ const User = require('./models/user');
 app.use(
   cors({
     credentials: true,
-    origin: "https://trendifye-com.netlify.app/",
+    origin: "https://trendifye-com.netlify.app",
   })
 );
 
